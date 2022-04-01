@@ -24,7 +24,7 @@
 /* globall styles */
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
     font-style: normal;
     font-weight: 400;
@@ -125,6 +125,7 @@ address {
 
 .hero-button {
     color: var(--hero-text-color);
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -161,6 +162,7 @@ address {
 .button {
     background-color: var(--button-color);
     color: var(--second-text-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
