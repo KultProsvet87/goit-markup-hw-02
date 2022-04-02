@@ -19,6 +19,7 @@
     --contact-bottom-color: rgba(255, 255, 255, 0.6);
     --hero-text-color: #ffffff;
     --button-color: #F5F4FA;
+    --second-bg-color: #F5F4FA;
     }
 
 /* globall styles */
@@ -86,6 +87,10 @@ h2 {
 .link:focus,
 .contact:hover,
 .contact:focus {
+    color: var(--accent-color);
+}
+
+.current {
     color: var(--accent-color);
 }
 
@@ -165,6 +170,10 @@ address {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+}
+
+.team {
+    background-color: var(--second-bg-color);
 }
 
 /* portfolio */
