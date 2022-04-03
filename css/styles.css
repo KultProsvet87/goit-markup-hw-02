@@ -146,6 +146,11 @@ address {
     background-color: var(--accent-color);
 }
 
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #188CE8;
+}
+
 /* Наши преимущества */
 
 .benefits-title {
